@@ -1,7 +1,7 @@
 # Module 12 Challenge
 ## MongoDB
 
-This repository focuses on food hygiene ratings from the UK Food Standards Agency.  The database is being prepared for the magazine "Eat Safe, Love" to help them determine restaurants they would be interested in writing about.  
+This repository focuses on food hygiene ratings from the UK Food Standards Agency.  The database is being prepared for the magazine "Eat Safe, Love" to help them determine restaurants of interest.  
 
 Ratings information was imported from a JSON file named [establishments.json](Resources/establishments.json) located in this repository's 'Resources' folder.  The database was named 'uk_food' and the collection was named 'establishments'.  
 
