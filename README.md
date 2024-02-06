@@ -3,7 +3,7 @@
 
 This repository focuses on food hygiene ratings from the UK Food Standards Agency.  The database is being prepared for the magazine "Eat Safe, Love" to help them determine restaurants they would be interested in writing about.  
 
-Ratings information was imported from a JSON file named [establishments.json] located in this repository's 'Resources' folder.  The database was named 'uk_food' and the collection was named 'establishments'.  
+Ratings information was imported from a JSON file named [establishments.json](Resources/establishments.json) located in this repository's 'Resources' folder.  The database was named 'uk_food' and the collection was named 'establishments'.  
 
 ### Database Preparation for Analysis
 Within the jupyter notebook file [NoSQL_setup_starter](NoSQL_setup_starter.ipynb) PyMongo was utilized to edit the uk_food database.  Additional restaurant information for the business "Panang Flavours" was manually added to the database and updated with current information. Documents were removed for the 'Dover' local authority, as this region is not of interest to "Eat Safe, Love". Values for "latitude" and "longitude" were converted to floats, and the "RatingValue" was converted to integer.  
